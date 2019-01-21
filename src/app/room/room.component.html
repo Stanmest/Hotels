@@ -1,0 +1,22 @@
+<div class="row nav">
+    <div class="col-md-6 nav">
+      <h1>CREATE ROOM</h1>
+      </div>
+      </div>
+      <div class ='for'>
+      <form (ngSubmit)="getroom(set)" #set="ngForm">
+          
+          <label id='rcat'> Room number</label> <input type="text" ngModel name="room_no" class='cat' style='margin-left:90px'><br>
+          <label id='ins'>Room category</label>
+  <select style='margin-left:85px'>
+      <option id='sel' disabled>select category</option>
+       <option id='sel' *ngFor="let sel of selects">{{sel.catname}}</option>
+  </select><br>
+  <label for='file' id='file'>Upload Image</label><input type='file' ngModel name='image' style='margin-left:95px'><br><br>
+  <label id='cate'> Room Description</label> <textarea ngModel name='comment' rows='5' cols='50' style='margin-left:64px'>Describe..</textarea>
+  <button type='submit' class='btn btn-info submit'>Create Room</button>
+          
+      </form>
+      </div>
+      <div class='footer'>
+      </div>

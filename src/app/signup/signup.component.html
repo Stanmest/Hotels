@@ -1,0 +1,34 @@
+<div class= "container-fluid ins">
+  <h2><!--<i class="fa fa-hotel">-->HOTEL SERVICE SYSTEM</h2>
+ <div class='row'>
+   
+    <div class="col-md-4"></div>
+     <div class="col-md-4 main">
+    
+      <form (ngSubmit)="subform(x)" #x=ngForm>      
+        <h1>REGISTER</h1>
+        <input type='text' ngModel name='fullname' class='form-group form-control top' placeholder='Fullname'style="width:90%">
+        <input type='text' ngModel name='email' class='form-group form-control add' placeholder='Email' style=" width:90%">
+        <input type='password' ngModel name='password' class='form-group form-control min'  placeholder='Password' style=" width:90%">
+        <input type='password' ngModel name='cpassword' class='form-group form-control up' placeholder='Comfirm password' style=" width:90%">
+          <button type="submit" class=" form-group form-control nav" >CREATE ACCOUNT</button>
+  
+      </form>
+      <div class="footer">
+      <p>Registered?<a href="#"  routerLink="login"> Sign in</a></p>
+      <h2>{{error}}</h2>
+      </div>
+  
+     </div>
+     <div class="col-md-4"></div>
+        </div>
+        
+    </div>
+    <router-outlet></router-outlet>
+  
+    
+     
+  
+  
+  
+  

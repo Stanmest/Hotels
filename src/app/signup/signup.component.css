@@ -1,0 +1,41 @@
+.ins{
+    background-image:linear-gradient(rgba(0, 0, 0, .9),rgba(0,0,0,.9)); 
+    background-repeat: repeat;
+    height: 100vh;
+
+}
+h1{
+    font-family: cambria;
+    color:#FFFFFF;
+    text-align: center;
+}
+.nav{
+    width: 90%;
+    color:#FFFFFF;
+    padding-left: 30%;
+    margin-top: 80px;
+    background-color: lightcoral;
+    font-weight: bold;    
+}
+.nav:hover {
+    background: pink;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.main{
+    margin-top: 7%;
+    
+}
+.top{
+    margin-top: 50px;
+}
+h2{
+    padding-left: 33%;
+    color: lightcoral;
+    font-size: 40px;
+    font-family: bookman oldd style;
+}
+.footer {
+    color: #FFFFFF;
+}

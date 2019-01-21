@@ -1,0 +1,21 @@
+<div class="container-fluid ins">
+    <div class="row">
+    
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+    <form (ngSubmit)="subform(sn)" #sn="ngForm">
+        <h1>Sign in</h1>
+        <div class="form-group">
+            <input type="email" ngModel name="email" class='form-group form-control add' 
+            placeholder='Email' style=" width:90%">
+            <input type="password" ngModel name="password"  class='form-group form-control min' 
+             placeholder='Password' style=" width:90%">
+            <button type="submit" class="btn btn-info">Login</button>
+        </div>
+    </form>
+    <h1>{{error}}</h1>
+    </div>
+    <div class="col-md-4"></div>
+    </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,13 @@
+.main{
+    background-color: wheat;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.sub{
+    width: 80px;
+    background-color: #993300;
+    margin-left: 40%;
+    margin-top: 20px;
+    color: wheat;
+   
+}

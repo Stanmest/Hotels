@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+/* General Styles */
+
+#maincontent {
+    font-size: 16px;
+        /*background: #000066;*/
+         height: 100vh;
+}
+
+
+/* Sidebar Wrapper*/
+.padded {
+        padding: 20px;
+        text-align: justify;
+        height: 80vh;
+}
+
+#sidebar {
+    background: lightcoral;
+    height: 100vh;
+    width: 250px;
+    z-index: 4;
+    position: fixed;
+    overflow-y: hidden;
+}
+img {
+        width: 30px;
+        padding: 5px;
+        height: 30px;
+}
+
+/*Sidenav Styles*/
+.sidenav {
+        padding: 0;
+        list-style-type: none;
+}
+
+.sidenav li {
+   line-height: 40px;
+    color: #fff;
+    display: block;
+    transition: 0.4s all;
+}
+
+.sidenav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+    padding-left: 0;
+    text-indent: 20px;
+}
+
+.sidenav li a:hover {
+    text-decoration: none;
+    background: #477;
+}
+
+
+/*page content*/
+
+#pagecontent {
+    padding-left: 250px;
+    display: block;
+}
+
+
+/* change the sidebar width */
+
+
+.pagetop, .sidetop { /* this gives the top a height bar */
+	height: auto;
+	background-color: #d6dfdf;
+	padding: 30px;
+}
+.sidetop {
+    background: black;
+    color: lightcoral;
+}
+.pagetop p {
+	font-size: 20px;
+        color: #456;
+}
+.sidetop {
+	min-height: 180px;
+}
+.sidetop img {
+	padding: 2px;
+	border: 2px solid lightcoral;
+	margin-left: 60px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.sidetop .name { /* centralises the users name */
+	font-size: 13px;
+	text-align: center;
+}
+h1 { 
+    background: black;
+    color: lightcoral;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.footer {
+
+text-align: center;
+background: lightcoral;
+
+}
+.enter{
+        text-align: center;
+}
+.add, .min, .btn {
+    margin-left: 20px;
+}

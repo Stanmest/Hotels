@@ -1,0 +1,34 @@
+.cat{
+    width:35%;
+}
+h1{
+    font-family: cambari math;
+    font-size:30px;
+    color:#993300;
+}
+.main{
+    font-size: 15px;
+    margin-top: 40px;
+    font-family: cambari math;
+    margin-top: 20px;
+}
+.ins{
+    padding-left: 30px;
+    background-color: wheat;
+    
+}
+.city{
+    width:20%;
+}
+.state{
+    width:20%;
+}
+.cou{
+    width:20%;
+}
+.submit{
+    width:20%;
+    margin-left: 30%;
+    color:wheat;
+    background-color: #993300;
+}

@@ -1,0 +1,59 @@
+<div id="maincontent">
+  <!--our sidebar starts here-->
+  <div id="sidebar">
+      <div class="sidetop">
+          <p class="name">Welcome<br>{{error}}</p>
+          <img class="img-responsive" src="../assets/code.jpg">
+          <!-- this image is in the same folder as the dashboard.php -->
+      </div>
+
+
+      <ul class="sidenav">
+          <li><a href=""><img src="../assets/web-home.svg" routerlink = "">Home</a></li>
+          <li><a href="">Add User</a></li>
+          <li><a href="">View All Users</a></li>
+          <li><a href="">Delete User</a></li>
+      </ul>
+  </div>
+  <!--our page content starts here-->
+  <div id="pagecontent">
+      <div class="pagetop">
+          <p class="text-center"><strong>Welcome to my Dashboard</strong></p>
+      </div>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-3 padded">
+                  <div class="well">
+                      
+                  </div>
+              </div>
+              <div class="col-md-6 padded main">
+                  <div class="well">
+                      <form (ngSubmit)="me(sn)" #sn="ngForm">
+                          <h1>CREATE SERVICE</h1>
+                          <div class="form-group">
+                              <input type="text" ngModel name="ServiceURL" class='form-group form-control add' 
+                              placeholder='ServiceURL' style=" width:90%">
+                              <input type="text" ngModel name="HotelName" class='form-group form-control min' 
+                              placeholder='HotelName' style=" width:90%">
+                              <input type="text" ngModel name="ServiceID" class='form-group form-control min' 
+                              placeholder='Location' style=" width:90%">
+                              <button type="submit" class="btn btn-success" style=" width:90%">Subscribe</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+              <div class="col-md-3 padded">
+                  <div class="well">
+                  </div>
+              </div>
+          </div>
+          
+              <div class="footer">
+                  <p class="enter">&copy; 2018 mypage &trade;</p>
+              </div>
+          
+
+      </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+.ins{
+    background-image:linear-gradient(rgba(0, 0, 0, .9),rgba(0,0,0,.9)); 
+    background-repeat: repeat;
+    height: 100vh;
+
+}
+h1{
+    font-family: cambria;
+    color:#FFFFFF;
+    padding-top: 10%;
+    padding-left: 30%;
+}
+.nav{
+    width: 90%;
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 80px;
+    background-color: lightcoral;
+    
+    
+}
+.main{
+    margin-top: 7%;
+    
+}
+.top{
+    margin-top: 50px;
+}
+h2{
+    padding-left: 33%;
+    color: lightcoral;
+    font-size: 40px;
+    font-family: bookman old style;
+}
+.add {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+

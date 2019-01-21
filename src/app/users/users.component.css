@@ -1,0 +1,61 @@
+.nav{
+    color:white;
+    
+    background-color: #993300;
+    font-family: cambari math;
+    
+   
+}
+h1{
+font-size:30px;
+padding-left: 30%;
+}
+.main{
+    padding-top: 10px;
+    font-family: cambari math;
+    font-size: 30%;
+    
+    
+}
+.body{
+background-image: url('C:\Users\Ngozi\Hotel-service-system1\src\assets\images\desk.jpg');
+     background-repeat: repeat;
+     background-size:contain;
+ padding-top: 10%;
+   padding-bottom: 10%
+}
+.hom{
+    background-color: #993300;
+    color:white;
+}
+.abo{
+    background-color: #993300;
+    padding-left: 20px;
+    margin-left: 5px;
+    color:white;
+}
+.cha{
+    background-color: #993300;
+     margin-left: 5px;
+     color:white;
+}
+.my{
+    background-color: #993300;
+     margin-left: 5px;
+     color:white;
+}.cre{
+    background-color: #993300;
+     margin-left: 5px;
+}
+.log{
+    background-color: #993300;
+     margin-left: 5px;
+}
+li a{
+    color: white;
+
+}
+ li a:hover{
+    text-decoration: none;
+    background: hotpink;
+}
